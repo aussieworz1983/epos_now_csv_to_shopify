@@ -1,0 +1,5 @@
+node_modules
+uploads/*.csv
+csv/*.csv
+package-lock.json
+out

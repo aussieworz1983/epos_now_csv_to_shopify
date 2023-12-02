@@ -1,0 +1,53 @@
+h1{
+    display:block;
+    text-align: center;
+    font-size:2rem;
+}
+form{
+    width:80%;
+    margin:auto;
+}
+.form-group{
+    width:60%;
+    margin:2rem auto;
+}
+.form-label{
+    display:block;
+    font-size:1.6rem;
+    margin-bottom:1rem;
+}
+.form-input{
+    border-radius:25px;
+    border:1px solid #000;
+    
+}
+.form-input::file-selector-button {
+    font-weight: bold;
+    color: #fff;
+    padding: 0.5em;
+    border: none;
+    border-radius: 3px;
+    background-color: #000;
+  }
+.submit{
+    display:block;
+    color:#fff;
+    background-color: #000;
+    border-radius: 25px;
+    border:none;
+    outline:none;
+    padding:.5rem 1rem;
+    font-size:1.2rem;
+    text-transform: uppercase;
+    font-weight:500;
+}
+footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    background-color: #000;
+    color:#fff;
+    text-align: center;
+    width:100%;
+    padding:3rem 0;
+}
